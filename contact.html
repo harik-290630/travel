@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/1cf483120b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo-content">
+            <div class="logo">
+                <div class="logo-name">
+                    <p>HK</p>
+                    <p></p>TOURISM</p> 
+                </div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <br> <br> <br> <br> <br> <br> <br> <br>
+
+        <ul class="categories">
+            <li>
+                <i class='bx bx-search'></i>
+                <a href="#">
+                    <input type="search" placeholder="Search">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-hotel' ></i>
+                    <span class="link_name">Hotels</span>
+                </a>
+            </li> <br>
+            <li>
+                <a href="flight.html">
+                    <i class='bx bxs-plane-alt'></i>
+                    <span class="link_name">Flights</span>
+                </a>
+            </li> <br>
+            <li>
+                <a href="train.html">
+                    <i class='bx bx-train'></i>
+                    <span class="link_name">Trains</span>
+                </a>
+            </li> <br>
+            <li>
+                <a href="#">
+                    <i class='bx bx-bus'></i>
+                    <span class="link_name">Buses</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="body">
+
+        <div id="buttons">
+            <ul class="page">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="#hotels">
+                    <li>About</li>
+                </a>
+                <a href="#packages">
+                    <li>Packages</li>
+                </a>
+                <a href="blogs.html">
+                    <li>Blogs</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+                <a href="login.html">
+                    <li>Login</li>
+                </a>
+
+            </ul>
+        </div>
+        <div id="contact" class="hoverable">
+
+        <h1>Contact Us</h1>
+        <p>Contact us and we'll get back to you within 24 hours</p>
+        <ul>
+            <li><img src="https://img.icons8.com/?size=100&id=Udrc3LA8OPbn&format=png&color=000000" class="mapmarker">Egmore, Saidapet, Guduvancherry</li>
+            <li><img src="https://img.icons8.com/?size=100&id=ZAh199SDBZjz&format=png&color=000000" class="align">+91 7397374177, +91 8681923203, +91 6382053667</li>
+            <li><img src="https://img.icons8.com/?size=100&id=qyRpAggnV0zH&format=png&color=000000" class="align">hktourism3@gmail.com</li>
+            
+        </ul>
+    
+    </div>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+        <script>
+                    window.onscroll = function() {scrollFunction()};
+            
+                    function scrollFunction() {
+                        if (document.documentElement.scrollTop > 20) {
+                            document.getElementById("myBtn").style.display = "block";
+                        } else {
+                            document.getElementById("myBtn").style.display = "none";
+                        }
+                    }
+                    function topFunction() {
+                        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+                    }
+         </script>
+            
+         <script>
+                    let btn = document.querySelector("#btn");
+                    let sidebar = document.querySelector(".sidebar");
+                    let searchBtn = document.querySelector(".bx-search");
+            
+                    btn.onclick = function() {
+                        sidebar.classList.toggle("active");
+                    }
+            
+                    searchBtn.onclick = function() {
+                        sidebar.classList.toogle("active");
+                    } 
+            
+         </script>
+            <script src="https://code:jquery.com/jquery-3.2.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+            
+ </body>
+</html>
